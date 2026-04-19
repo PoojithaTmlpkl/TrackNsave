@@ -1,10 +1,13 @@
+
 TrackNSave
+
 A Mobile Ledger Solution for Sustainable Rural Savings
 📌 Overview
 
 TrackNSave is a mobile-based financial tracking application designed to help individuals—especially in rural areas—manage their daily income, expenses, and savings efficiently. The platform promotes financial awareness, disciplined saving habits, and better money management through a simple and user-friendly interface.
 
 🚀 Features
+
 💰 Income & Expense Tracking – Record daily transactions بسهولة
 📊 Savings Management – Monitor and grow savings over time
 🔐 Secure Authentication – User login and data protection
@@ -28,7 +31,7 @@ Version Control	Git & GitHub
 
 <img width="947" height="544" alt="image" src="https://github.com/user-attachments/assets/4e24cc4d-2cc3-4c62-b935-ed327ddd0743" />
 
-<img width="897" height="484" alt="image" src="https://github.com/user-attachments/assets/3273da0b-a308-4fa7-bd88-9780d0eb3130" />
+<img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/3273da0b-a308-4fa7-bd88-9780d0eb3130" />
 
 
 🔗 API Endpoints (Sample)
