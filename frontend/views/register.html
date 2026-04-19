@@ -1,0 +1,63 @@
+<form id="registerForm">
+
+<input type="text" id="name" placeholder="Name" required>
+
+<input type="text" id="phone" placeholder="Phone" required>
+
+<input type="text" id="village" placeholder="Village" required>
+
+<input type="password" id="password" placeholder="Password" required>
+
+<select id="language">
+<option value="English">English</option>
+<option value="Telugu">Telugu</option>
+</select>
+
+<button type="submit">Register</button>
+
+</form>
+
+<script>
+
+document.getElementById("registerForm").addEventListener("submit", async function(e){
+
+e.preventDefault();
+
+const userData = {
+
+name: document.getElementById("name").value,
+phone: document.getElementById("phone").value,
+village: document.getElementById("village").value,
+password: document.getElementById("password").value,
+language: document.getElementById("language").value
+
+};
+
+try{
+
+const res = await fetch("/api/auth/register",{
+
+method:"POST",
+headers:{
+"Content-Type":"application/json"
+},
+
+body: JSON.stringify(userData)
+
+});
+
+const data = await res.json();
+
+alert("Registration Successful");
+
+window.location.href="login.html";
+
+}catch(error){
+
+alert("Error registering user");
+
+}
+
+});
+
+</script>
