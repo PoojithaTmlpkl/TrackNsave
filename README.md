@@ -8,7 +8,7 @@ TrackNSave is a mobile-based financial tracking application designed to help ind
 
 🚀 Features
 
-💰 Income & Expense Tracking – Record daily transactions بسهولة
+💰 Income & Expense Tracking – Record daily transactions ة
 📊 Savings Management – Monitor and grow savings over time
 🔐 Secure Authentication – User login and data protection
 📱 User-Friendly UI – Clean and simple mobile interface
@@ -23,24 +23,27 @@ Database	MongoDB Atlas
 API Testing	Postman
 Version Control	Git & GitHub
 
-<img width="1058" height="458" alt="image" src="https://github.com/user-attachments/assets/e7478ad5-13b3-430e-abb7-eb4393f184d6" />
 
-<img width="1058" height="458" alt="image" src="https://github.com/user-attachments/assets/5ba8a544-7652-4a15-aa11-3c44eafe5233" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5ba8a544-7652-4a15-aa11-3c44eafe5233" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/f8277332-b37d-4848-87d8-de7400fe9058" width="45%"/>
+</p>
 
-<img width="885" height="464" alt="image" src="https://github.com/user-attachments/assets/f8277332-b37d-4848-87d8-de7400fe9058" />
-
-<img width="947" height="544" alt="image" src="https://github.com/user-attachments/assets/4e24cc4d-2cc3-4c62-b935-ed327ddd0743" />
-
-<img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/3273da0b-a308-4fa7-bd88-9780d0eb3130" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4e24cc4d-2cc3-4c62-b935-ed327ddd0743" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/3273da0b-a308-4fa7-bd88-9780d0eb3130" width="45%"/>
+</p>
 
 
 🔗 API Endpoints (Sample)
+
 POST /api/auth/register – Register user
 POST /api/auth/login – Login user
 GET /api/transactions – Fetch transactions
 POST /api/transactions – Add transaction
 
 🎯 Use Case
+
 TrackNSave is especially useful for:
 Rural users managing daily finances
 Small-scale workers tracking income/expenses
